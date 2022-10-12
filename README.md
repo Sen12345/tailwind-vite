@@ -23,6 +23,7 @@ This project uses Vite the updated version of Laravel Mix that comes with this v
 - The use of Laravel mailable class to send mail each time a user likes someone's post.
 - Route model binding for eager loading to limit request numbers, and prevent N+1 problems with the Qloquent ORM approach
 - Laravel debugbar for monitoring request 
+- Testing using Laravel Database on Factories
 - This project utalises Eloquent ORM for a more agile development process but this does not denote the fact that Query Builder is more effective interms of resources and speed on bigger projects
 
 ## License
