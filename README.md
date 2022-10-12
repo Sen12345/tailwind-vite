@@ -7,57 +7,23 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About This App
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+This is a Post App developed using Laravel version 9.19 using MVC framework, it is an app for friends or groups to post comments on just about any topic for discussion.  This app is for demonstrating the use of Laravel tools and functionalities to develop this application.  Below is a list of different technologies used throughout the develoopment life-cycle.  This project does't include any implimentation of Laravel starter kits with ready made auth scaffolding out of the box e.g Laravel Breeze or Laravel JetStream. The auth scaffolding has being been developed from scratch in order to demonstrate the use of Laravel Auth services from start to all the way up.
+## Instalation
+The IDE includes PHPSTORM for code editing, Xampp apache web server for local hosting and database, Composer installed globally, Ubuntu for Linux implimentation on Windows and Docker Desktop which has not being used in the project.
+This project uses Vite the updated version of Laravel Mix that comes with this version of Laravel.
+- Middleware service that regulates request from users to the application
+- A login and registration system developed from scrach, this option allows you to apply laravel Auth service more effectively using the Auth() facade or the auth() helper.
+- Blade templating framework for viewing, Models for logic and controllers use for preparing the view.
+- Back-end including restful api services that interacts with the database and respond to request from users on the web.
+- Users are able to post comments.
+- Users are able to do CRUD on each post.
+- Written policies that restrict what users can and can't do, e.g users are not able to delete other user's post
+- The use of Laravel mailable class to send mail each time a user likes someone's post.
+- Route model binding for eager loading to limit request numbers, and prevent N+1 problems with the Qloquent ORM approach
+- Laravel debugbar for monitoring request 
+- This project utalises Eloquent ORM for a more agile development process but this does not denote the fact that Query Builder is more effective interms of resources and speed on bigger projects
 
 ## License
 
