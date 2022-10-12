@@ -18,10 +18,17 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(200)->create();
 
+<<<<<<< HEAD
        $max = 10;
 
        for($i = 0; $i <= $max; $i++){
            User::factory()->create();
+=======
+       $max = 200;
+
+       for($i = 0; $i <= $max; $i++){
+           Post::factory()->create();
+>>>>>>> c9532a4 (Initial Commit)
        }
     }
 }

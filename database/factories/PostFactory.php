@@ -17,7 +17,11 @@ class PostFactory extends Factory
     public function definition()
     {
         return [
+<<<<<<< HEAD
             'user_id' => 1,
+=======
+            'user_id' => 2,
+>>>>>>> c9532a4 (Initial Commit)
             'body' => $this->faker->sentence(20),
         ];
     }
