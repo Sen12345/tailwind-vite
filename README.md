@@ -14,11 +14,11 @@ This Post App has been developed using Laravel version 9.19 leveraging the MVC f
 The IDE includes PHPSTORM for code editing, Xampp apache web server for local hosting and database, Composer installed globally, Ubuntu for Linux implimentation on Windows and Docker Desktop which has not being used in the project.
 
 ## Testing 
-Database seeding, PHPUNIT and Feature testing
+Database seeding, PHPUNIT and Feature testing, Email Testing Using mailtrap
 
 This project uses Vite the updated version of Laravel Mix that comes with this version of Laravel.
 - Middleware service that regulates request from users to the application
-- A login and registration system developed from scrach, this option allows you to apply laravel Auth service more effectively using the Auth() facade or the auth() helper.
+- A login and registration system developed from scrach, this option allows you to apply laravel Auth service more effectively using the Auth() facade or the auth()     helper.
 - Blade templating framework for viewing, Models for logic and controllers use for preparing the view.
 - Back-end including restful api services that interacts with the database and respond to request from users on the web.
 - Users are able to post comments.
@@ -27,7 +27,6 @@ This project uses Vite the updated version of Laravel Mix that comes with this v
 - The use of Laravel mailable class to send mail each time a user likes someone's post.
 - Route model binding for eager loading to limit request numbers, and prevent N+1 problems with the Qloquent ORM approach
 - Laravel debugbar for monitoring request 
-- Testing using Laravel Database on Factories
 - This project utalises Eloquent ORM for a more agile development process but this does not denote the fact that Query Builder is more effective interms of resources and speed on bigger projects
 
 ## License
