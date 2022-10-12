@@ -12,6 +12,10 @@
 This is a Post App developed using Laravel version 9.19 leveraging the MVC framework, it is an app for friends or groups to post comments on just about any topic for discussion.  This app is for demonstrating the use of Laravel tools and functionalities to develop this application.  Below is a list of different technologies used throughout the develoopment life-cycle.  This project does't include any implimentation of Laravel starter kits with ready made auth scaffolding out of the box e.g Laravel Breeze or Laravel JetStream. The auth scaffolding has being been developed from scratch in order to demonstrate the use of Laravel Auth services from start to all the way up.
 ## Instalation
 The IDE includes PHPSTORM for code editing, Xampp apache web server for local hosting and database, Composer installed globally, Ubuntu for Linux implimentation on Windows and Docker Desktop which has not being used in the project.
+
+## Testing 
+Database seeding, PHPUNIT and Feature testing
+
 This project uses Vite the updated version of Laravel Mix that comes with this version of Laravel.
 - Middleware service that regulates request from users to the application
 - A login and registration system developed from scrach, this option allows you to apply laravel Auth service more effectively using the Auth() facade or the auth() helper.
